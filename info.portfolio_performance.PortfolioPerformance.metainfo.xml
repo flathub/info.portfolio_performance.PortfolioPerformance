@@ -15,6 +15,7 @@
     <p>Keep foreign currency accounts using the exchange rates published by the European Central Bank (ECB).</p>
   </description>
   <releases>
+    <release version="0.51.0" date="2021-03-01"/>
     <release type="stable" date="2021-02-07T00:00:01Z" version="0.50.4"/>
   </releases>
   <content_rating type="oars-1.0"/>
@@ -30,12 +31,12 @@
   <url type="bugtracker">https://github.com/buchen/portfolio/issues</url>
 
   <!--FIXME: where to donate to the application-->
-  <url type="donation"><!-- http://www.homepage.com/donation.html --></url>
+  <!-- <url type="donation">http://www.homepage.com/donation.html</url> -->
 
   <url type="help">https://forum.portfolio-performance.info/</url>
 
   <url type="translate">https://poeditor.com/join/project?hash=4lYKLpEWOY</url>
 
   <!--FIXME: this is optional, but recommended-->
-  <update_contact><!-- upstream-contact_at_email.com --></update_contact>
+  <!-- <update_contact>upstream-contact_at_email.com</update_contact> -->
 </component>
