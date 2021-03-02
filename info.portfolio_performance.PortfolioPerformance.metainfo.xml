@@ -31,12 +31,12 @@
   <url type="bugtracker">https://github.com/buchen/portfolio/issues</url>
 
   <!--FIXME: where to donate to the application-->
-  <url type="donation"<!-- http://www.homepage.com/donation.html -->/>
+  <!-- <url type="donation">http://www.homepage.com/donation.html</url> -->
 
   <url type="help">https://forum.portfolio-performance.info/</url>
 
   <url type="translate">https://poeditor.com/join/project?hash=4lYKLpEWOY</url>
 
   <!--FIXME: this is optional, but recommended-->
-  <update_contact<!-- upstream-contact_at_email.com -->/>
+  <!-- <update_contact>upstream-contact_at_email.com</update_contact> -->
 </component>
