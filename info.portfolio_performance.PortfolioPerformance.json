@@ -43,8 +43,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/buchen/portfolio/releases/download/0.53.3/PortfolioPerformance-0.53.3-linux.gtk.x86_64.tar.gz",
-                    "sha256": "393e57721c1091a638d7742e8f74d6bbd21ea6f3021d2ff4a28f4adbb8f75726",
+                    "url": "https://github.com/buchen/portfolio/releases/download/0.54.0/PortfolioPerformance-0.54.0-linux.gtk.x86_64.tar.gz",
+                    "sha256": "6ef81e0435fd0b8977fe93016478d62dd4f89f84952e01e231ceaa2d4c0d201e",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/buchen/portfolio/releases/latest",
