@@ -15,6 +15,7 @@
     <p>Keep foreign currency accounts using the exchange rates published by the European Central Bank (ECB).</p>
   </description>
   <releases>
+    <release version="0.56.0" date="2021-11-07"/>
     <release version="0.55.0" date="2021-09-20"/>
     <release version="0.54.3" date="2021-08-15"/>
     <release version="0.54.2" date="2021-07-29"/>
