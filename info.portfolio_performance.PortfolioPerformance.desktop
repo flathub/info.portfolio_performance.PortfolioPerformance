@@ -6,3 +6,4 @@ Exec=PortfolioPerformance %f
 Icon=info.portfolio_performance.PortfolioPerformance
 Terminal=false
 Categories=Office;Finance;Java;
+SingleMainWindow=true
