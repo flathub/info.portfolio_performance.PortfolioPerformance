@@ -38,6 +38,7 @@
                 "install -Dm644 info.portfolio_performance.PortfolioPerformance.metainfo.xml /app/share/metainfo/info.portfolio_performance.PortfolioPerformance.metainfo.xml",
                 "install -Dm 644 info.portfolio_performance.PortfolioPerformance.desktop /app/share/applications/info.portfolio_performance.PortfolioPerformance.desktop",
                 "sed -rie \"s|(osgi.instance.area.default=).*\\$|\\\\1@user.home/.var/app/${FLATPAK_ID}/config/workspace|\" configuration/config.ini",
+                "echo \"name.abuchen.portfolio.in-app-update=disable\" >> configuration/config.ini",
                 "mv * /app/jre/bin/"
             ],
             "sources": [
