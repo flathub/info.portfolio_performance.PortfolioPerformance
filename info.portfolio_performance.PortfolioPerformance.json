@@ -1,10 +1,10 @@
 {
     "app-id": "info.portfolio_performance.PortfolioPerformance",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.openjdk11"
+        "org.freedesktop.Sdk.Extension.openjdk17"
     ],
     "command": "/app/jre/bin/PortfolioPerformance",
     "finish-args": [
@@ -15,14 +15,14 @@
         "--env=PATH=/app/jre/bin:/usr/bin"
     ],
     "build-options": {
-        "append-path": "/usr/lib/sdk/openjdk11/bin"
+        "append-path": "/usr/lib/sdk/openjdk17/bin"
     },
     "modules": [
         {
             "name": "openjdk",
             "buildsystem": "simple",
             "build-commands": [
-                "/usr/lib/sdk/openjdk11/install.sh"
+                "/usr/lib/sdk/openjdk17/install.sh"
             ]
         },
         {
