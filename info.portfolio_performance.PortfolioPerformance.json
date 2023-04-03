@@ -36,7 +36,7 @@
                 "install -Dm644 icons/pp_512.png /app/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png",
                 "rm -rf icons",
                 "install -Dm644 info.portfolio_performance.PortfolioPerformance.metainfo.xml /app/share/metainfo/info.portfolio_performance.PortfolioPerformance.metainfo.xml",
-                "install -Dm 644 info.portfolio_performance.PortfolioPerformance.desktop /app/share/applications/info.portfolio_performance.PortfolioPerformance.desktop",
+                "install -Dm644 info.portfolio_performance.PortfolioPerformance.desktop /app/share/applications/info.portfolio_performance.PortfolioPerformance.desktop",
                 "sed -rie \"s|(osgi.instance.area.default=).*\\$|\\\\1@user.home/.var/app/${FLATPAK_ID}/config/workspace|\" configuration/config.ini",
                 "echo \"name.abuchen.portfolio.in-app-update=disable\" >> configuration/config.ini",
                 "mv * /app/jre/bin/"
@@ -44,6 +44,7 @@
             "sources": [
                 {
                     "type": "archive",
+                    "only-arches": ["x86_64"],
                     "url": "https://github.com/buchen/portfolio/releases/download/0.62.0/PortfolioPerformance-0.62.0-linux.gtk.x86_64.tar.gz",
                     "sha256": "577087a74afedd5c9af6572e09f1de550aa6cbdaf194df5cb3965286827d5d30",
                     "x-checker-data": {
@@ -51,6 +52,18 @@
                         "url": "https://api.github.com/repos/buchen/portfolio/releases/latest",
                         "version-query": ".tag_name",
                         "url-query": ".assets[] | select(.name==\"PortfolioPerformance-\" + $version + \"-linux.gtk.x86_64.tar.gz\") | .browser_download_url"
+                    }
+                },
+                {
+                    "type": "archive",
+                    "only-arches": ["aarch64"],
+                    "url": "https://github.com/buchen/portfolio/releases/download/0.62.0/PortfolioPerformance-0.62.0-linux.gtk.aarch64.tar.gz",
+                    "sha256": "5e719b50af0164b5c86f292794071de0266fb71199af5cd28db27722c10e710b",
+                    "x-checker-data": {
+                        "type": "json",
+                        "url": "https://api.github.com/repos/buchen/portfolio/releases/latest",
+                        "version-query": ".tag_name",
+                        "url-query": ".assets[] | select(.name==\"PortfolioPerformance-\" + $version + \"-linux.gtk.aarch64.tar.gz\") | .browser_download_url"
                     }
                 },
                 {
