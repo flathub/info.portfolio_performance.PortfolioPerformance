@@ -9,6 +9,7 @@
     "command": "/app/jre/bin/PortfolioPerformance",
     "finish-args": [
         "--socket=x11",
+        "--share=ipc",
         "--share=network",
         "--filesystem=home",
         "--device=dri",
