@@ -1,4 +1,6 @@
 {
 	"only-arches": ["x86_64", "aarch64"],
-	"automerge-flathubbot-prs": true
+	"automerge-flathubbot-prs": true,
+        "finish-args": ["--share=ipc", "--socket=fallback-x11", "--socket=wayland", "--device=dri", "--filesystem=~/.eclipse"
+]	
 }
