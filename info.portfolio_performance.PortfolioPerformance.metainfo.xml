@@ -81,19 +81,19 @@
   <launchable type="desktop-id">info.portfolio_performance.PortfolioPerformance.desktop</launchable>
   <screenshots>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/info.portfolio_performance.PortfolioPerformance/screenshots/images/screenshot1@2x.png</image>
+      <image>https://raw.githubusercontent.com/flathub/info.portfolio_performance.PortfolioPerformance/HEAD/images/screenshot1@2x.png</image>
       <caption>Dashboard showing performance trend of portfolio for different years</caption>
     </screenshot>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/flathub/info.portfolio_performance.PortfolioPerformance/screenshots/images/screenshot2@2x.png</image>
+      <image>https://raw.githubusercontent.com/flathub/info.portfolio_performance.PortfolioPerformance/HEAD/images/screenshot2@2x.png</image>
       <caption>Pie chart of the holdings in the portfolio</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/info.portfolio_performance.PortfolioPerformance/screenshots/images/screenshot3@2x.png</image>
+      <image>https://raw.githubusercontent.com/flathub/info.portfolio_performance.PortfolioPerformance/HEAD/images/screenshot3@2x.png</image>
       <caption>Historical performance chart of an index</caption>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/flathub/info.portfolio_performance.PortfolioPerformance/screenshots/images/screenshot4@2x.png</image>
+      <image>https://raw.githubusercontent.com/flathub/info.portfolio_performance.PortfolioPerformance/HEAD/images/screenshot4@2x.png</image>
       <caption>Comparison of portfolio performance against an index</caption>
     </screenshot>
   </screenshots>
