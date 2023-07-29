@@ -53,7 +53,7 @@
                     "sha256": "745f30e49c94372a4bc8fa850ba7562c0acf8f292fcbd04f6671d8b3a9726103",
                     "x-checker-data": {
                         "type": "json",
-                        "url": "https://api.github.com/repos/buchen/portfolio/releases/latest",
+                        "url": "https://api.github.com/repos/portfolio-performance/portfolio/releases/latest",
                         "version-query": ".tag_name",
                         "url-query": ".assets[] | select(.name==\"PortfolioPerformance-\" + $version + \"-linux.gtk.x86_64.tar.gz\") | .browser_download_url"
                     }
@@ -67,7 +67,7 @@
                     "sha256": "df8cb1898059f7f446fc907c8e3d0199cfed66cd759d4dc1c43f9d52f923292f",
                     "x-checker-data": {
                         "type": "json",
-                        "url": "https://api.github.com/repos/buchen/portfolio/releases/latest",
+                        "url": "https://api.github.com/repos/portfolio-performance/portfolio/releases/latest",
                         "version-query": ".tag_name",
                         "url-query": ".assets[] | select(.name==\"PortfolioPerformance-\" + $version + \"-linux.gtk.aarch64.tar.gz\") | .browser_download_url"
                     }

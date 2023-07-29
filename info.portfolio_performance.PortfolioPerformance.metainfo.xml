@@ -104,7 +104,7 @@
 
   <developer_name>Andreas Buchen</developer_name>
 
-  <url type="bugtracker">https://github.com/buchen/portfolio/issues</url>
+  <url type="bugtracker">https://github.com/portfolio-performance/portfolio/issues</url>
 
   <!--FIXME: where to donate to the application-->
   <!-- <url type="donation">http://www.homepage.com/donation.html</url> -->
@@ -113,7 +113,7 @@
 
   <url type="translate">https://poeditor.com/join/project?hash=4lYKLpEWOY</url>
 
-  <url type="vcs-browser">https://github.com/buchen/portfolio</url>
+  <url type="vcs-browser">https://github.com/portfolio-performance/portfolio</url>
 
   <!--FIXME: this is optional, but recommended-->
   <!-- <update_contact>upstream-contact_at_email.com</update_contact> -->
