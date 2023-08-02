@@ -28,7 +28,7 @@
   <releases>
     <release version="0.64.5" date="2023-07-23">
       <description>
-        <ul xml:lang="en">
+        <ul>
           <li>Fix: Fixed an issue where new securities were mistakenly added to the watchlist of another file.</li>
           <li>Fix: New securities are now created in the reporting currency when the provider does not provide currency information.</li>
           <li>Improved PDF importer for GENO, sBroker, FlatEx, FFB, DKB, Deutsche Bank.</li>
@@ -42,7 +42,7 @@
     </release>
     <release version="0.64.4" date="2023-07-15">
       <description>
-        <ul xml:lang="en">
+        <ul>
           <li>Fix: Fixes Cannot invoke “name.abuchen.portfolio.model.SecurityProperty.getType()” because “p” is null</li>
         </ul>
         <ul xml:lang="de">
@@ -52,7 +52,7 @@
     </release>
     <release version="0.64.3" date="2023-07-15">
       <description>
-        <ul xml:lang="en">
+        <ul>
           <li>Fix: Fixes a problem with migration of filter configuration if identical filter exist</li>
         </ul>
         <ul xml:lang="de">
@@ -62,7 +62,7 @@
     </release>
     <release version="0.64.2" date="2023-07-14">
       <description>
-        <ul xml:lang="en">
+        <ul>
           <li>New: Filter configurations are no longer stored in the settings but in the file itself. This makes it easier to synchronize them between computers and to edit them better</li>
           <li>New: MACD indicator in the price chart (Moving Average Convergence/Divergence)</li>
           <li>New: the Measurement Tool is now active for all - it allows to easily measure distances and changes in the charts</li>
