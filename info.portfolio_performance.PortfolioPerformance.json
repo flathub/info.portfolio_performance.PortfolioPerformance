@@ -35,9 +35,9 @@
                 "install -Dm644 icons/pp_48.png /app/share/icons/hicolor/48x48/apps/${FLATPAK_ID}.png",
                 "install -Dm644 icons/pp_256.png /app/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png",
                 "install -Dm644 icons/pp_512.png /app/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png",
-                "install -m644 -Dt /app/share/metainfo ${FLATPAK_ID}.metainfo.xml",
+                "install -m644 -Dt /app/share/metainfo metainfo/${FLATPAK_ID}.metainfo.xml",
                 "install -m644 -Dt /app/share/applications ${FLATPAK_ID}.desktop",
-                "rm -rf icons metainfo ${FLATPAK_ID}.metainfo.xml ${FLATPAK_ID}.desktop",
+                "rm -rf icons metainfo ${FLATPAK_ID}.desktop",
                 "sed -rie \"s|(osgi.instance.area.default=).*\\$|\\\\1@user.home/.var/app/${FLATPAK_ID}/config/workspace|\" configuration/config.ini",
                 "echo \"osgi.configuration.area=@user.home/.var/app/${FLATPAK_ID}/config/configuration\" >> configuration/config.ini",
                 "echo \"name.abuchen.portfolio.in-app-update=disable\" >> configuration/config.ini",
@@ -75,10 +75,6 @@
                 {
                     "type": "file",
                     "path": "info.portfolio_performance.PortfolioPerformance.desktop"
-                },
-                {
-                    "type": "file",
-                    "path": "info.portfolio_performance.PortfolioPerformance.metainfo.xml"
                 }
             ]
         }
