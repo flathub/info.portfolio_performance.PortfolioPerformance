@@ -3,17 +3,30 @@
   <id>info.portfolio_performance.PortfolioPerformance</id>
   <name>Portfolio Performance</name>
   <summary>Track the performance of an investment portfolio</summary>
+  <summary xml:lang="de">Analysiere die Performance Deines gesamten Anlageportfolios</summary>
   <url type="homepage">https://www.portfolio-performance.info/en/</url>
   <icon type="remote">https://www.portfolio-performance.info/images/logo.svg</icon>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>EPL-1.0</project_license>
   <description>
-    <p>Record the full history of your transactions: purchases, sales, taxes, fees, ...</p>
-    <p>Calculate performance indicators such as the True-Time Weighted Rate of Return or the Internal Rate of Return (IRR) for your holdings.</p>
-    <p>Update historical quotes from a variety of sources: Yahoo Finance, Finnhub.io, Quandl, or AlphaVantage. Alternatively, scrape quotes from HTML pages or JSON documents.</p>
-    <p>All data is stored in XML for further processing and can be exported as CSV or JSON.</p>
-    <p>Rebalance your investment portfolio based on a freely defined Asset Allocation.</p>
-    <p>Keep foreign currency accounts using the exchange rates published by the European Central Bank (ECB).</p>
+    <p>An open source tool to calculate the overall performance of an investment portfolio - across all accounts - using True-Time Weighted Return or Internal Rate of Return.</p>
+    <ul>
+      <li>Record the full history of your transactions: purchases, sales, taxes, fees, ...</li>
+      <li>Calculate performance indicators such as the True-Time Weighted Rate of Return or the Internal Rate of Return (IRR) for your holdings.</li>
+      <li>Update historical quotes from a variety of sources: Yahoo Finance, Finnhub.io, Quandl, or AlphaVantage. Alternatively, scrape quotes from HTML pages or JSON documents.</li>
+      <li>All data is stored in XML for further processing and can be exported as CSV or JSON.</li>
+      <li>Rebalance your investment portfolio based on a freely defined Asset Allocation.</li>
+      <li>Keep foreign currency accounts using the exchange rates published by the European Central Bank (ECB).</li>
+    </ul>
+    <p xml:lang="de">Ein Open Source Programm zur Berechnung der Performance eines Gesamtportfolios - über verschiedene Depots und Konten hinweg - anhand von True-Time Weighted Rate of Return und internem Zinsfuß.</p>
+    <ul xml:lang="de">
+      <li>Die vollständige Historie aller Buchungen kann erfasst werden: Käufe, Verkäufe, Steuern, Gebühren, ...</li>
+      <li>Performance-Kennzahlen wie der True-Time Weighted Rate of Return oder der interne Zinsfuß (Internal Rate of Return) werden errechnet.</li>
+      <li>Historische Kurse werden automatisch von Yahoo Finance geladen oder können aus beliebigen HTML Seiten extrahiert werden.</li>
+      <li>Durch das offene Dateiformat stehen alle Daten als XML zur Verfügung oder können als CSV exportiert werden.</li>
+      <li>Unterstützung für Rebalancing anhand von frei definierbaren Asset Allocations.</li>
+      <li>Mit Hilfe der historischen Wechselkurse der Europäischen Zentralbank (ECB) können Konten und Aktien in Fremdwährung geführt werden.</li>
+    </ul>
   </description>
   <categories>
     <category>Office</category>
@@ -26,7 +39,34 @@
     <keyword>investment</keyword>
   </keywords>
   <releases>
-    <release version="0.65.0" date="2023-08-14"/>
+		<release version="0.65.0" date="2023-08-14">
+			<description>
+				<ul>
+					<li>New: Suggestions of providers for historical prices for freshly imported securities from PDF or CSV files</li>
+					<li>New: Newly recognized securities can be assigned to existing securities during PDF import</li>
+					<li>New: Pie chart of earnings (dividends, interest) by taxonomy</li>
+					<li>New: Added support for PDF bank documents from Sberbank Europe and BISON</li>
+					<li>New: Introducing a new "crosshair" tool available in the price charts</li>
+					<li>Improvement: Date format is now automatically pre-filled during CSV import based on the current language setting</li>
+					<li>Improvement: CSV import now supports scientific notation for numbers</li>
+					<li>PDF Importer Enhancement: Expanded support for Raiffeisenbank, eBase, FlatEx, Quirion, Geno Broker, LGT Bank, and PostFinance</li>
+					<li>Fix: Tooltip for calculating price gains is now limited to 50 rows</li>
+					<li>Fix: Filter options are now properly applied when opening the list of all transactions</li>
+				</ul>
+				<ul xml:lang="de">
+					<li>Neu: Vorschläge zur Kursversorgung von frisch importierte Wertpapiere aus PDF- oder CSV-Dateien</li>
+					<li>Neu: Neu erkannte Wertpapiere können beim PDF Import bestehenden Wertpapieren zugeordnet werden</li>
+					<li>Neu: Kuchendiagramm der Erträge (Dividenden, Zinsen) nach Klassifikation</li>
+					<li>Neu: Unterstützung für PDF-Bankdokumente von Sberbank Europe und BISON hinzugefügt</li>
+					<li>Neu: Neues Werkzeug "Fadenkreuz" in den Kursdiagrammen verfügbar</li>
+					<li>Verbesserung: Das Datumsformat wird beim CSV-Import automatisch gemäß der aktuellen Spracheinstellung vorausgefüllt</li>
+					<li>Verbesserung: Der CSV-Import unterstützt nun auch wissenschaftliche Schreibweisen für Zahlen</li>
+					<li>Verbesserung der PDF Importer: Raiffeisenbank, eBase, FlatEx, Quirion, Geno Broker, LGT Bank und PostFinance</li>
+					<li>Fix: Tooltip zur Berechnung der Kursgewinne auf 50 Zeilen limitiert</li>
+					<li>Fix: Filteroptionen werden nun ordnungsgemäß beim Öffnen der Liste aller Buchungen angewendet</li>
+				</ul>
+			</description>
+		</release>
     <release version="0.64.5" date="2023-07-23">
       <description>
         <ul>
@@ -87,58 +127,58 @@
         </ul>
       </description>
     </release>
-    <release version="0.64.1" date="2023-06-25"/>
-    <release version="0.64.0" date="2023-06-17"/>
-    <release version="0.63.1" date="2023-06-04"/>
-    <release version="0.63.0" date="2023-06-04"/>
-    <release version="0.62.1" date="2023-05-07"/>
-    <release version="0.62.0" date="2023-04-01"/>
-    <release version="0.61.4" date="2023-03-14"/>
-    <release version="0.61.3" date="2023-02-24"/>
-    <release version="0.61.1" date="2023-02-21"/>
-    <release version="0.61.0" date="2023-02-05"/>
-    <release version="0.60.2" date="2023-01-11"/>
-    <release version="0.60.1" date="2022-12-29"/>
-    <release version="0.60.0" date="2022-12-18"/>
-    <release version="0.59.5" date="2022-12-04"/>
-    <release version="0.59.4" date="2022-11-20"/>
-    <release version="0.59.3" date="2022-11-06"/>
-    <release version="0.59.2" date="2022-10-09"/>
-    <release version="0.59.1" date="2022-08-22"/>
-    <release version="0.59.0" date="2022-07-17"/>
-    <release version="0.58.5" date="2022-06-19"/>
-    <release version="0.58.4" date="2022-06-04"/>
-    <release version="0.58.3" date="2022-05-31"/>
-    <release version="0.58.2" date="2022-05-30"/>
-    <release version="0.58.1" date="2022-05-30"/>
-    <release version="0.58.0" date="2022-05-29"/>
-    <release version="0.57.2" date="2022-04-18"/>
-    <release version="0.57.1" date="2022-04-04"/>
-    <release version="0.57.0" date="2022-04-03"/>
-    <release version="0.56.6" date="2022-03-05"/>
-    <release version="0.56.5" date="2022-02-06"/>
-    <release version="0.56.4" date="2022-01-23"/>
-    <release version="0.56.3" date="2022-01-09"/>
-    <release version="0.56.2" date="2021-12-02"/>
-    <release version="0.56.1" date="2021-11-22"/>
-    <release version="0.56.0" date="2021-11-07"/>
-    <release version="0.55.0" date="2021-09-20"/>
-    <release version="0.54.3" date="2021-08-15"/>
-    <release version="0.54.2" date="2021-07-29"/>
-    <release version="0.54.1" date="2021-07-26"/>
-    <release version="0.54.0" date="2021-07-18"/>
-    <release version="0.53.3" date="2021-06-27"/>
-    <release version="0.53.2" date="2021-06-20"/>
-    <release version="0.53.1" date="2021-06-16"/>
-    <release version="0.53.0" date="2021-06-13"/>
-    <release version="0.52.0" date="2021-04-18"/>
-    <release version="0.51.3" date="2021-03-28"/>
-    <release version="0.51.2" date="2021-03-14"/>
-    <release version="0.51.1" date="2021-03-02"/>
-    <release version="0.51.0" date="2021-03-01"/>
-    <release version="0.50.4" date="2021-02-07"/>
+    <release version="0.64.1" date="2023-06-25" />
+    <release version="0.64.0" date="2023-06-17" />
+    <release version="0.63.1" date="2023-06-04" />
+    <release version="0.63.0" date="2023-06-04" />
+    <release version="0.62.1" date="2023-05-07" />
+    <release version="0.62.0" date="2023-04-01" />
+    <release version="0.61.4" date="2023-03-14" />
+    <release version="0.61.3" date="2023-02-24" />
+    <release version="0.61.1" date="2023-02-21" />
+    <release version="0.61.0" date="2023-02-05" />
+    <release version="0.60.2" date="2023-01-11" />
+    <release version="0.60.1" date="2022-12-29" />
+    <release version="0.60.0" date="2022-12-18" />
+    <release version="0.59.5" date="2022-12-04" />
+    <release version="0.59.4" date="2022-11-20" />
+    <release version="0.59.3" date="2022-11-06" />
+    <release version="0.59.2" date="2022-10-09" />
+    <release version="0.59.1" date="2022-08-22" />
+    <release version="0.59.0" date="2022-07-17" />
+    <release version="0.58.5" date="2022-06-19" />
+    <release version="0.58.4" date="2022-06-04" />
+    <release version="0.58.3" date="2022-05-31" />
+    <release version="0.58.2" date="2022-05-30" />
+    <release version="0.58.1" date="2022-05-30" />
+    <release version="0.58.0" date="2022-05-29" />
+    <release version="0.57.2" date="2022-04-18" />
+    <release version="0.57.1" date="2022-04-04" />
+    <release version="0.57.0" date="2022-04-03" />
+    <release version="0.56.6" date="2022-03-05" />
+    <release version="0.56.5" date="2022-02-06" />
+    <release version="0.56.4" date="2022-01-23" />
+    <release version="0.56.3" date="2022-01-09" />
+    <release version="0.56.2" date="2021-12-02" />
+    <release version="0.56.1" date="2021-11-22" />
+    <release version="0.56.0" date="2021-11-07" />
+    <release version="0.55.0" date="2021-09-20" />
+    <release version="0.54.3" date="2021-08-15" />
+    <release version="0.54.2" date="2021-07-29" />
+    <release version="0.54.1" date="2021-07-26" />
+    <release version="0.54.0" date="2021-07-18" />
+    <release version="0.53.3" date="2021-06-27" />
+    <release version="0.53.2" date="2021-06-20" />
+    <release version="0.53.1" date="2021-06-16" />
+    <release version="0.53.0" date="2021-06-13" />
+    <release version="0.52.0" date="2021-04-18" />
+    <release version="0.51.3" date="2021-03-28" />
+    <release version="0.51.2" date="2021-03-14" />
+    <release version="0.51.1" date="2021-03-02" />
+    <release version="0.51.0" date="2021-03-01" />
+    <release version="0.50.4" date="2021-02-07" />
   </releases>
-  <content_rating type="oars-1.0"/>
+  <content_rating type="oars-1.0" />
   <launchable type="desktop-id">info.portfolio_performance.PortfolioPerformance.desktop</launchable>
   <screenshots>
     <screenshot>
