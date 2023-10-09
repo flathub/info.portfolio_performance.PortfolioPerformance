@@ -6,14 +6,14 @@
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.openjdk17"
     ],
-    "command": "/app/jre/bin/PortfolioPerformance",
+    "command": "PortfolioPerformance",
     "finish-args": [
         "--socket=x11",
         "--share=ipc",
         "--share=network",
         "--filesystem=home",
         "--device=dri",
-        "--env=PATH=/app/jre/bin:/usr/bin"
+        "--env=PATH=/app/bin:/app/jre/bin:/usr/bin"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/openjdk17/bin"
@@ -41,7 +41,9 @@
                 "sed -rie \"s|(osgi.instance.area.default=).*\\$|\\\\1@user.home/.var/app/${FLATPAK_ID}/config/workspace|\" configuration/config.ini",
                 "echo \"osgi.configuration.area=@user.home/.var/app/${FLATPAK_ID}/config/configuration\" >> configuration/config.ini",
                 "echo \"name.abuchen.portfolio.in-app-update=disable\" >> configuration/config.ini",
-                "mv * /app/jre/bin/"
+                "mkdir -p /app/portfolio /app/bin",
+                "mv * /app/portfolio",
+                "ln -s /app/portfolio/PortfolioPerformance /app/bin"
             ],
             "sources": [
                 {
