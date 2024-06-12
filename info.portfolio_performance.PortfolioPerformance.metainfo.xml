@@ -37,6 +37,9 @@
     <keyword>investment</keyword>
   </keywords>
   <releases>
+    <release version="0.69.0" date="2024-06-12">
+      <description></description>
+    </release>
     <release version="0.68.4" date="2024-04-28">
       <description>
         <ul>
@@ -409,58 +412,58 @@
         </ul>
       </description>
     </release>
-    <release version="0.64.1" date="2023-06-25" />
-    <release version="0.64.0" date="2023-06-17" />
-    <release version="0.63.1" date="2023-06-04" />
-    <release version="0.63.0" date="2023-06-04" />
-    <release version="0.62.1" date="2023-05-07" />
-    <release version="0.62.0" date="2023-04-01" />
-    <release version="0.61.4" date="2023-03-14" />
-    <release version="0.61.3" date="2023-02-24" />
-    <release version="0.61.1" date="2023-02-21" />
-    <release version="0.61.0" date="2023-02-05" />
-    <release version="0.60.2" date="2023-01-11" />
-    <release version="0.60.1" date="2022-12-29" />
-    <release version="0.60.0" date="2022-12-18" />
-    <release version="0.59.5" date="2022-12-04" />
-    <release version="0.59.4" date="2022-11-20" />
-    <release version="0.59.3" date="2022-11-06" />
-    <release version="0.59.2" date="2022-10-09" />
-    <release version="0.59.1" date="2022-08-22" />
-    <release version="0.59.0" date="2022-07-17" />
-    <release version="0.58.5" date="2022-06-19" />
-    <release version="0.58.4" date="2022-06-04" />
-    <release version="0.58.3" date="2022-05-31" />
-    <release version="0.58.2" date="2022-05-30" />
-    <release version="0.58.1" date="2022-05-30" />
-    <release version="0.58.0" date="2022-05-29" />
-    <release version="0.57.2" date="2022-04-18" />
-    <release version="0.57.1" date="2022-04-04" />
-    <release version="0.57.0" date="2022-04-03" />
-    <release version="0.56.6" date="2022-03-05" />
-    <release version="0.56.5" date="2022-02-06" />
-    <release version="0.56.4" date="2022-01-23" />
-    <release version="0.56.3" date="2022-01-09" />
-    <release version="0.56.2" date="2021-12-02" />
-    <release version="0.56.1" date="2021-11-22" />
-    <release version="0.56.0" date="2021-11-07" />
-    <release version="0.55.0" date="2021-09-20" />
-    <release version="0.54.3" date="2021-08-15" />
-    <release version="0.54.2" date="2021-07-29" />
-    <release version="0.54.1" date="2021-07-26" />
-    <release version="0.54.0" date="2021-07-18" />
-    <release version="0.53.3" date="2021-06-27" />
-    <release version="0.53.2" date="2021-06-20" />
-    <release version="0.53.1" date="2021-06-16" />
-    <release version="0.53.0" date="2021-06-13" />
-    <release version="0.52.0" date="2021-04-18" />
-    <release version="0.51.3" date="2021-03-28" />
-    <release version="0.51.2" date="2021-03-14" />
-    <release version="0.51.1" date="2021-03-02" />
-    <release version="0.51.0" date="2021-03-01" />
-    <release version="0.50.4" date="2021-02-07" />
+    <release version="0.64.1" date="2023-06-25"/>
+    <release version="0.64.0" date="2023-06-17"/>
+    <release version="0.63.1" date="2023-06-04"/>
+    <release version="0.63.0" date="2023-06-04"/>
+    <release version="0.62.1" date="2023-05-07"/>
+    <release version="0.62.0" date="2023-04-01"/>
+    <release version="0.61.4" date="2023-03-14"/>
+    <release version="0.61.3" date="2023-02-24"/>
+    <release version="0.61.1" date="2023-02-21"/>
+    <release version="0.61.0" date="2023-02-05"/>
+    <release version="0.60.2" date="2023-01-11"/>
+    <release version="0.60.1" date="2022-12-29"/>
+    <release version="0.60.0" date="2022-12-18"/>
+    <release version="0.59.5" date="2022-12-04"/>
+    <release version="0.59.4" date="2022-11-20"/>
+    <release version="0.59.3" date="2022-11-06"/>
+    <release version="0.59.2" date="2022-10-09"/>
+    <release version="0.59.1" date="2022-08-22"/>
+    <release version="0.59.0" date="2022-07-17"/>
+    <release version="0.58.5" date="2022-06-19"/>
+    <release version="0.58.4" date="2022-06-04"/>
+    <release version="0.58.3" date="2022-05-31"/>
+    <release version="0.58.2" date="2022-05-30"/>
+    <release version="0.58.1" date="2022-05-30"/>
+    <release version="0.58.0" date="2022-05-29"/>
+    <release version="0.57.2" date="2022-04-18"/>
+    <release version="0.57.1" date="2022-04-04"/>
+    <release version="0.57.0" date="2022-04-03"/>
+    <release version="0.56.6" date="2022-03-05"/>
+    <release version="0.56.5" date="2022-02-06"/>
+    <release version="0.56.4" date="2022-01-23"/>
+    <release version="0.56.3" date="2022-01-09"/>
+    <release version="0.56.2" date="2021-12-02"/>
+    <release version="0.56.1" date="2021-11-22"/>
+    <release version="0.56.0" date="2021-11-07"/>
+    <release version="0.55.0" date="2021-09-20"/>
+    <release version="0.54.3" date="2021-08-15"/>
+    <release version="0.54.2" date="2021-07-29"/>
+    <release version="0.54.1" date="2021-07-26"/>
+    <release version="0.54.0" date="2021-07-18"/>
+    <release version="0.53.3" date="2021-06-27"/>
+    <release version="0.53.2" date="2021-06-20"/>
+    <release version="0.53.1" date="2021-06-16"/>
+    <release version="0.53.0" date="2021-06-13"/>
+    <release version="0.52.0" date="2021-04-18"/>
+    <release version="0.51.3" date="2021-03-28"/>
+    <release version="0.51.2" date="2021-03-14"/>
+    <release version="0.51.1" date="2021-03-02"/>
+    <release version="0.51.0" date="2021-03-01"/>
+    <release version="0.50.4" date="2021-02-07"/>
   </releases>
-  <content_rating type="oars-1.0" />
+  <content_rating type="oars-1.0"/>
   <launchable type="desktop-id">info.portfolio_performance.PortfolioPerformance.desktop</launchable>
   <screenshots>
     <screenshot>
