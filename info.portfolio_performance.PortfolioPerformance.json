@@ -55,8 +55,8 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://github.com/portfolio-performance/portfolio/releases/download/0.70.3/PortfolioPerformance-0.70.3-linux.gtk.x86_64.tar.gz",
-                    "sha256": "993f1c2285935735f2124b6ec9b902f6c4edc253427ed89a31ec8761cc8757c0",
+                    "url": "https://github.com/portfolio-performance/portfolio/releases/download/0.70.4/PortfolioPerformance-0.70.4-linux.gtk.x86_64.tar.gz",
+                    "sha256": "e0bda1a16505026c725026d0156a084252216ddca770dd1f18599a84f324d055",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/portfolio-performance/portfolio/releases/latest",
@@ -69,8 +69,8 @@
                     "only-arches": [
                         "aarch64"
                     ],
-                    "url": "https://github.com/portfolio-performance/portfolio/releases/download/0.70.3/PortfolioPerformance-0.70.3-linux.gtk.aarch64.tar.gz",
-                    "sha256": "a8811aa4f2d0ed205661debc9699318e1d436c8f62e11249486057bc70b96fd8",
+                    "url": "https://github.com/portfolio-performance/portfolio/releases/download/0.70.4/PortfolioPerformance-0.70.4-linux.gtk.aarch64.tar.gz",
+                    "sha256": "9343241f24ed3c960de6f7497b1a355f93fb749e8f2c8d8a7effa4e9520d8cd2",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/portfolio-performance/portfolio/releases/latest",
