@@ -8,7 +8,8 @@
     ],
     "command": "PortfolioPerformance",
     "finish-args": [
-        "--socket=x11",
+        "--socket=wayland",
+        "--socket=fallback-x11",
         "--share=ipc",
         "--share=network",
         "--filesystem=home",
